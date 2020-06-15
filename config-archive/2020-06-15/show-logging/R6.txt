@@ -1,0 +1,74 @@
+Syslog logging: enabled (0 messages dropped, 3 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 44 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 0 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 44 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (8192 bytes)
+    Count and timestamp logging messages: disabled
+    Persistent logging: disabled
+
+No active filter modules.
+
+    Trap logging: level informational, 48 message lines logged
+        Logging Source-Interface:       VRF Name:
+
+Log Buffer (8192 bytes):
+
+*Mar  1 00:00:01.118: %ATA-6-DEV_FOUND: device 0x1F0
+*Mar  1 00:00:12.031: %NVRAM-5-CONFIG_NVRAM_READ_OK: NVRAM configuration 'flash:/nvram' was read from disk.
+*Jun 15 22:18:40.000: %PA-3-PA_INIT_FAILED: Performance Agent failed to initialize (Missing Data License)
+*Jun 15 22:18:47.065: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+*Jun 15 22:18:47.069: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*Jun 15 22:18:47.071: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+*Jun 15 22:18:47.073: %LINK-3-UPDOWN: Interface GigabitEthernet0/3, changed state to down
+*Jun 15 22:18:49.140: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*Jun 15 22:18:49.142: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+*Jun 15 22:18:49.142: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+*Jun 15 22:18:49.143: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to down
+*Jun 15 22:18:49.162: %CVAC-4-FILE_IGNORED: Configuration file flash0:/ios_config.txt is ignored : empty file
+*Jun 15 22:18:50.107: %SYS-5-CONFIG_I: Configured from memory by console
+*Jun 15 22:18:51.010: %CVAC-4-FILE_IGNORED: Configuration file flash0:/ios_config.txt is ignored : empty file
+*Jun 15 22:18:51.525: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+*Jun 15 22:18:51.718: %SSH-5-ENABLED: SSH 2.0 has been enabled
+*Jun 15 22:18:51.774: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Jun 15 22:18:51.775: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
+*Jun 15 22:18:51.995: %LINK-5-CHANGED: Interface GigabitEthernet0/1, changed state to administratively down
+*Jun 15 22:18:51.998: %LINK-5-CHANGED: Interface GigabitEthernet0/2, changed state to administratively down
+*Jun 15 22:18:52.000: %LINK-5-CHANGED: Interface GigabitEthernet0/3, changed state to administratively down
+*Jun 15 22:18:53.143: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to down
+*Jun 15 22:18:53.145: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to down
+*Jun 15 22:19:02.520: %SYS-3-CPUHOG: Task is running for (1998)msecs, more than (2000)msecs (0/0),process = Crypto CA.
+*Jun 15 22:19:45.398: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:19:54.922: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0:/vios-adventerprisek9-m' passed code signing verification
+*Jun 15 22:20:43.514: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:21:35.173: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:22:26.114: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:23:21.462: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:24:14.992: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:25:12.438: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:26:00.723: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:26:59.984: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:27:51.485: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:28:43.596: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:29:36.396: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:30:30.536: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:31:25.914: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:32:14.564: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:33:08.124: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:34:03.233: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:34:57.440: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).
+*Jun 15 22:35:55.977: %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/0 (not full duplex), with Switch GigabitEthernet1/3 (full duplex).

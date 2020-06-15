@@ -1,0 +1,55 @@
+Syslog logging: enabled (0 messages dropped, 3 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 25 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 0 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 25 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (8192 bytes)
+    Count and timestamp logging messages: disabled
+    Persistent logging: disabled
+
+No active filter modules.
+
+    Trap logging: level informational, 29 message lines logged
+        Logging Source-Interface:       VRF Name:
+
+Log Buffer (8192 bytes):
+
+*Mar  1 00:00:01.217: %ATA-6-DEV_FOUND: device 0x1F0
+*Mar  1 00:00:13.524: %NVRAM-5-CONFIG_NVRAM_READ_OK: NVRAM configuration 'flash:/nvram' was read from disk.
+*Jun 15 22:18:46.347: %PA-3-PA_INIT_FAILED: Performance Agent failed to initialize (Missing Data License)
+*Jun 15 22:18:53.979: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+*Jun 15 22:18:53.983: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*Jun 15 22:18:53.985: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+*Jun 15 22:18:53.987: %LINK-3-UPDOWN: Interface GigabitEthernet0/3, changed state to down
+*Jun 15 22:18:56.762: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*Jun 15 22:18:56.763: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+*Jun 15 22:18:56.764: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+*Jun 15 22:18:56.764: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to down
+*Jun 15 22:18:56.788: %CVAC-4-FILE_IGNORED: Configuration file flash0:/ios_config.txt is ignored : empty file
+*Jun 15 22:18:57.985: %SYS-5-CONFIG_I: Configured from memory by console
+*Jun 15 22:18:58.622: %CVAC-4-FILE_IGNORED: Configuration file flash0:/ios_config.txt is ignored : empty file
+*Jun 15 22:18:59.173: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+*Jun 15 22:18:59.278: %SSH-5-ENABLED: SSH 2.0 has been enabled
+*Jun 15 22:18:59.307: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Jun 15 22:18:59.308: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
+*Jun 15 22:18:59.737: %LINK-5-CHANGED: Interface GigabitEthernet0/1, changed state to administratively down
+*Jun 15 22:18:59.779: %LINK-5-CHANGED: Interface GigabitEthernet0/2, changed state to administratively down
+*Jun 15 22:19:00.024: %LINK-5-CHANGED: Interface GigabitEthernet0/3, changed state to administratively down
+*Jun 15 22:19:00.913: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to down
+*Jun 15 22:19:00.915: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to down
+*Jun 15 22:19:08.825: %SYS-3-CPUHOG: Task is running for (1998)msecs, more than (2000)msecs (0/0),process = Crypto CA.
+*Jun 15 22:19:58.465: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0:/vios-adventerprisek9-m' passed code signing verification
